@@ -25,7 +25,7 @@ description: "A step by step guide to connect to your Twilio account via SIP tru
 
 - For your elastic SIP trunk to accept our outbound request, you need to whitelist IP address or create a auth with username and password.
 
-{/* - If you opt for the auth route, you need to specify the username and password in the next step when importing the number to Autocalls.
+{/* - If you opt for the auth route, you need to specify the username and password in the next step when importing the number to AskHannah.
    <Frame>
      <img
        src="/resources/twillio-auth-route.jpeg"
@@ -33,7 +33,7 @@ description: "A step by step guide to connect to your Twilio account via SIP tru
      />
    </Frame> */}
 
-- Currently Autocalls SIP server does not have a static IP, so if you opt for the IP route, you need to whitelist all the IP addresses in the range like following:
+- Currently AskHannah SIP server does not have a static IP, so if you opt for the IP route, you need to whitelist all the IP addresses in the range like following:
 
    <Frame>
      <img
@@ -51,7 +51,7 @@ description: "A step by step guide to connect to your Twilio account via SIP tru
 
 3. Setup origination (this is for inbound)
 
-- Here you will specify Autocalls SIP server address as the origination SIP URI: ```sip:5wed79aeavr.sip.livekit.cloud ``` 
+- Here you will specify AskHannah SIP server address as the origination SIP URI: ```sip:5wed79aeavr.sip.livekit.cloud ``` 
 
     <Frame>
       <img
@@ -71,18 +71,18 @@ You’ve created the elastic SIP trunk, now you would need to purchase numbers /
      />
    </Frame>
 
-## Step 3: Import numbers to Autocalls
+## Step 3: Import numbers to AskHannah
 
-Now the number is set up with your elastic SIP trunking, you need to import the number to Autocalls so that we will know how to route the call.
+Now the number is set up with your elastic SIP trunking, you need to import the number to AskHannah so that we will know how to route the call.
 
-1. Go to your Autocalls.ai dashboard
+1. Go to your AskHannah dashboard
 2. Navigate to ** Your Phone Numbers**
 3. Click “Integrate SIP trunk”
 
    <Frame>
      <img
        src="/resources/twillio-import-autocalls-sip1.png"
-       alt="Import numbers to Autocalls"
+       alt="Import numbers to AskHannah"
      />
    </Frame>
 4. Fill in your details based on your integration type 
@@ -117,7 +117,7 @@ Server address: e.g., xxx.pstn.twillio.com
    <Frame>
      <img
        src="/resources/twillio-autocalls-credentials-auth-type.png"
-       alt="Twillio Autocalls Credentials Auth Type"
+       alt="Twillio AskHannah Credentials Auth Type"
      />
    </Frame> */}
 
@@ -135,7 +135,7 @@ Server address: e.g., xxx.pstn.twillio.com
    <Frame>
      <img
        src="/resources/twillio-autocalls-credentials-ip-type1.png"
-       alt="Twillio Autocalls Credentials IP Type"
+       alt="Twillio AskHannah Credentials IP Type"
      />
    </Frame> 
    
@@ -144,7 +144,7 @@ Server address: e.g., xxx.pstn.twillio.com
     <Frame>
       <img
         src="/resources/twillio-autocalls-sip-country.png"
-        alt="Twillio Autocalls SIP Country"
+        alt="Twillio AskHannah SIP Country"
       />
     </Frame>
 

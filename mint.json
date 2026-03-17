@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Autocalls",
+  "name": "AskHannah",
   "logo": {
     "dark": "/resources/logo/dark.png",
     "light": "/resources/logo/light.png"
@@ -24,14 +24,14 @@
   },
   "topbarLinks": [{
     "name": "Home",
-    "url": "https://autocalls.ai"
+    "url": "https://www.askhannah.be"
   }, {
     "name": "Support",
-    "url": "https://autocalls.ai/contact"
+    "url": "https://askhannah.be/nl/contact"
   }],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.autocalls.ai"
+    "url": "https://app.askhannah.be"
   },
   "anchors": [{
     "name": "No-Code Automation",
@@ -372,10 +372,9 @@
     }
   ],
   "footerSocials": {
-    "linkedin": "https://www.linkedin.com/company/autocalls-ai"
   },
   "api": {
-    "baseUrl": "https://app.autocalls.ai/api/",
+    "baseUrl": "https://app.askhannah.be/api/",
     "auth": {
       "method": "bearer"
     }
